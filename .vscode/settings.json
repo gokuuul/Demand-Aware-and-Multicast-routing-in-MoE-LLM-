@@ -1,0 +1,21 @@
+{
+  "files.watcherExclude": {
+    "**/moe_profiling_trace/**": true,
+    "**/results/**": true,
+    "**/results_bp/**": true,
+    "**/figures_ae/**": true,
+    "**/__pycache__/**": true
+  },
+  "files.exclude": {
+    "**/moe_profiling_trace": true,
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/moe_profiling_trace": true,
+    "**/results*": true,
+    "**/*.log": true
+  },
+  "python.analysis.exclude": ["**/moe_profiling_trace/**", "**/results*/**"],
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "python.autoComplete.extraPaths": ["${workspaceFolder}"]
+}

@@ -1,0 +1,15 @@
+out
+out.txt
+out*
+__pycache__/
+*.pyc
+# 排除所有 result 相关文件/目录（results 目录及名称含 result 的输出文件）
+results/
+**/results/
+*results*
+*_result*moe_profiling_trace/
+results_bp/
+figures_ae/
+*.log
+.venv/
+.env
